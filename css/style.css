@@ -1,0 +1,42 @@
+body {
+    background-image: url("./img/GameofThronesCover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 30rem;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .card {
+    width: 280px;
+    text-align: center;
+    min-height: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 4rem;
+    background-color: #5e5e5ee5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px rgb(209, 191, 191);
+  }
+  .links {
+    text-decoration: none;
+    color: black;
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  header {
+    text-align: center;
+    padding: 4rem;
+  }
+
+  
